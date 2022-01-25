@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "module": "ES6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es5",
+    "sourceMap": true,
+    "removeComments": true,
+    "downlevelIteration": true,
+    "lib": ["DOM", "ES2020"],
+    "jsx": "react",
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+  ],
+  "exclude": [
+    "node_modules",
+    "./src/**/*.test.ts",
+    "./src/**/*.test.tsx"
+  ]
+}
